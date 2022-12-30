@@ -9,5 +9,5 @@
 | Multi PPO (RL) | -% | -% | -% | -% | Work in progress. One agent per class which trains on a binary classification task. One final agent which trains based on the previous agents' prediction |
 
 ## Last Reinforcement Learning rollout
-![alt text](./Img/Last_rollout.png)
+![alt text](./images/Last_rollout.png)
 
