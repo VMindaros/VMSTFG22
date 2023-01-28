@@ -54,7 +54,7 @@ Si por el contrario se toma el extremo contrario y se establece una duración de
 
 Una prueba donde inicializó cada entorno en una posición distinta del dataset o a barajar el dataset para cada entorno demostró resultados mucho peores tras el mismo número de pasos.
 
-Tras una mayor indagación en el funcionamiento de los algoritmos de RL, determiné que la causa de este comportamiento era el dataset. Dado que los algoritmos de RL están diseñados para trabajar en entornos modelados como procesos de Markov y estableciendo relaciones entre transiciones y estados (en nuestro caso cada registro), usar registros puntuales en desorden del dataset original era una aproximación incorrecta.
+Tras una mayor indagación en el funcionamiento de los algoritmos de RL, determiné que la causa de este comportamiento era el dataset. Dado que los algoritmos de RL están diseñados para trabajar en entornos modelados como procesos de Markov y estableciendo relaciones entre transiciones y estados (en nuestro caso cada registro), usar registros originales era una aproximación más acertada.
 
 ## Segunda aproximación
 En este caso, siguiendo el razonamiento que hace [SubrataMaji](https://github.com/SubrataMaji/IDS-UNSW-NB15/blob/master/1.%20Dataset/About%20Dataset%20and%20It's%20Cleaning.ipynb), se trabaja sobre los datos en crudo con los datasets `UNSWNB15_i.csv`, con aproximadamente 2.5M de registros ordenados temporalmente, realizando también el respectivo preprocesamiento.
