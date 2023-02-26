@@ -30,6 +30,10 @@ Los resultados se han obtenido utilizando ```average='Binary'```.
 
 ![](./Images/DT.png) ![](./Images/RF.png)
 
+<p align="center">
+  <img src="./Images/DT.png" />
+</p>
+
 ![](./Images/XGB.png) ![](./Images/MLP.png)
 
 ![](./Images/PPO.png)
