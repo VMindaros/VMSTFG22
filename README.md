@@ -28,15 +28,25 @@ Los resultados se han obtenido utilizando ```average='Binary'```.
 | Sequential Dense Layers | 98.17% | 99.98% | 91.43% | 95.51% |
 | Proximal Policy Optimization | 97.79% | 99.96% | 89.84% | 94.63% |
 
-![](./Images/DT.png) ![](./Images/RF.png)
-
 <p align="center">
   <img src="./Images/DT.png" />
 </p>
 
-![](./Images/XGB.png) ![](./Images/MLP.png)
+<p align="center">
+  <img src="./Images/RF.png" />
+</p>
 
-![](./Images/PPO.png)
+<p align="center">
+  <img src="./Images/XGB.png" />
+</p>
+
+<p align="center">
+  <img src="./Images/MLP.png" />
+</p>
+
+<p align="center">
+  <img src="./Images/PPO.png" />
+</p>
 
 
 
