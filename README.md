@@ -47,15 +47,3 @@ Los resultados se han obtenido utilizando ```average='Binary'```.
 <p align="center">
   <img src="./Images/PPO.png" />
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
