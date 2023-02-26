@@ -1,13 +1,4 @@
 # Contenidos
-## Comparación
-| Model | Acc | Rec (Macro-avg) | Prec (Macro-avg) | F1 (Macro-avg) | Details |
-| - | - | - | - | - | - |
-| Seq (reference) | 81.7% | 48.3% | 76.4% | 49.1% | 5 hidden dense layers, vanilla |
-| Seq (reference) | 67.8% | 59.7% | 47.9% | 43.1% | 5 hidden dense layers, with class weighted training |
-| PPO | 73.1% | 52.8% | 45.3% | 45.7% | 29.8M steps, biased reward to minorities |
-| DQN | 77.0% | 57.5% | 52.9% | 52.6% | 32M steps, biased rewards to very reduced minorities |
-| Multiprocess DQN with custom policy network - WIP| 75.7% | -% | -% | 51.1% | 2.7M steps, 8 parallel environments, superb sample efficiency and wall clock time |
-
 ## Proyecto y objetivo
 
 Diseño de un modelo de IA explicativa basado en aprendizaje por refuerzo aplicado al dataset UNSW-NB15
@@ -30,20 +21,16 @@ Los modelos que se han trabajado son los siguientes, a los cuales se ha aplicado
 Los resultados se han obtenido utilizando ```average='Binary'```.
 
 | Model | Accuracy | Recall | Precision | F1 |
-| - | - | - | - | - | - |
+| - | - | - | - | - |
 | Decision Tree | 97.71% | 95.99% | 92.11% | 94.01% |
 | Random Forest | 98.30% | 98.07% | 96.41% | 97.23% |
 | XGBoost | 98.73% | 98.26% | 95.16% | 96.68% |
 | Sequential Dense Layers | 98.17% | 99.98% | 91.43% | 95.51% |
 | Proximal Policy Optimization | 97.79% | 99.96% | 89.84% | 94.63% |
 
-![](./Images/DT.png)
+![](./Images/DT.png) ![](./Images/RF.png)
 
-![](./Images/RF.png)
-
-![](./Images/XGB.png)
-
-![](./Images/MLP.png)
+![](./Images/XGB.png) ![](./Images/MLP.png)
 
 ![](./Images/PPO.png)
 
