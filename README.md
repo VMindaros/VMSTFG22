@@ -1,4 +1,14 @@
-# Contenidos
+# Contenido
+## Requisitos para replicación de resultados
+
+- Tener descargado el dataset UNSW-NB15 en una carpeta ./Dataset dentro del mismo directorio que el proyecto y ejecutar los cuadernos secuencialmente
+- Paquetes y librerías:
+    - python=3.7
+    - tensorflow==2.10
+    - pytorch==1.13.1
+    - stable-baselines3[extra], pandas, seaborn, scikit-learn, matplotlib, prettytable, shap, lime
+
+
 ## Proyecto y objetivo
 
 Diseño de un modelo de IA explicativa basado en aprendizaje por refuerzo aplicado al dataset UNSW-NB15
